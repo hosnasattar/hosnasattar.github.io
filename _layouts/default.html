@@ -1,7 +1,9 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html>
 		<head>
-			<title>Hosna Sattar, PhD</title>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<nav>
@@ -13,16 +15,16 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-	    		<div class="blurb">
-	        		<h1>Hi there, I'm Hosna Sattar!</h1>
-					<p>My areas of expertise are Machine Learning, Human-Computer Interaction, and Computer Vision. I do like to use my expertise to build intelligent assistive systems to help users achieve their goal easier.<a href="/about">Read more about my life...</a></p>
-	    		</div><!-- /.blurb -->
+			
+			{{ content }}
+			
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:hosna.sattar@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hosnasattar">github.com/hankquinlan</a></li>
+	        		<li><a href="https://github.com/hosnasattar">github.com/hosnasattar</a></li>
 				</ul>
 			</footer>
 		</body>
 	</html>
+
